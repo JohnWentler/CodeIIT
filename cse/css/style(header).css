@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+	justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: rgb(255, 255, 255);
+    place-items: center;
+}
+/* ---------------------------------------Started-NAVBAR------------------------------ */
+.container .logo a img{
+	display: flex; 
+	float: left;
+	/* background-color: #ffffff; */
+	margin-left: 1.5rem;
+    width: 4rem;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+	background-color: #f9f9ff;
+}
+.container .logo{
+	margin-left: -4.8rem;
+	height: 4rem;
+	width: 14rem;
+	/* background-color: rgb(21, 0, 255); */
+}
+.navbar .navbar-brand h6{
+	/* background-color: #b300ff; */
+	 
+	margin-top: 0.6rem;
+	margin-left: 5.7rem;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	font-size: 1rem;
+}
+/* .navbar .getstarted {
+	background: rgb(0, 0, 0);
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+} */
+.navbar-nav a{
+	text-transform: uppercase;
+	list-style: none;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+.navbar-light .navbar-brand span {
+	color: white;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000000;
+}
+/* ------------------------------------------------------------------ */
+/* .navbar-light .navbar-nav .nav-link:hover{
+	
+    transform: translateY(-1px);
+}
+.navbar-light .navbar-nav .navbar-link{
+	transition: background 0.8s, transform 0.8s;
+} */
+/* --------------------------------------------------------------- */
+.navbar-nav{
+	margin-right: -3rem;
+	/* background-color: rgb(255, 255, 255); */
+}
+.navbar .navbar-nav .nav-item{
+	/* background-color: #ffffff; */
+	display: inline-block;
+    list-style: none;
+    margin: 10px 2.5px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	color:#000000;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#0011ff;
+}
+.nav-item{
+	text-align: center;
+	align-items: center;
+}
+.dropdown-item{
+	border-style: hidden;
+	text-align: left;
+}
+.dropdown-item .fa-regular:hover{
+	color: #0000ff;
+    transform: translateY(-5px);
+}
+.dropdown-item .fa-regular:hover{
+	transition: background 0.2s, transform 0.2s;
+}
+
+.nav-item dropdown{
+	background-color: none;
+}
+/* .dropdown-item{
+	text-align: center;
+	align-items: center;
+} */
+.navbar .navbar-nav .nav-item .nav-link::after{
+	content: ' ';
+	margin-left: 10%;
+	/* padding: 2.9px 10px; */
+	border-radius: 9px;
+    width: 0;
+    height: 3px;
+	align-items: center;
+    background: #052bff;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    transition: 0.7s;
+}
+/* line-effect */ 
+/* .navbar .navbar-nav .nav-item .nav-link:hover::after{
+	width: 90%;
+}*/
+/* ---------------------------------drop----------------------------- */
+.dropdown-menu{
+	animation-name: Mdown;
+	animation-duration: 0.5s;
+}
+@keyframes Mdown{
+	from{
+		opacity: 0;
+		transform: translate(0,20px);
+		-webkit-transform: translateX(0,20px) ;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.dropdown-menu .dropdown-item{
+	animation-name: Mdown;
+	animation-duration: 0.5s;
+	
+}
+@keyframes Mdown{
+	from{
+		opacity: 0;
+		transform: translate(0,20px);
+		-webkit-transform: translateX(0,20px) ;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.dropdown:hover{
+	animation-play-state: running;
+}
+.dropdown:hover> .dropdown-menu{
+	display: block;
+}
+.dropdown-submenu {
+	position: relative;
+  }
+.dropdown-submenu:hover > .dropdown-menu{
+	display: block;
+}
+
+  
+.lab .dropdown-menu{
+	animation-name: Mdown;
+	animation-duration: 0.5s;
+}
+@keyframes Mdown{
+	from{
+		opacity: 0;
+		transform: translate(0,20px);
+		-webkit-transform: translateX(0,20px) ;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.lab .dropdown-menu .dropdown-item{
+	animation-name: Mdown;
+	animation-duration: .5s;
+	
+}
+@keyframes Mdown{
+	from{
+		opacity: 0;
+		transform: translate(0,20px);
+		-webkit-transform: translateX(0,20px) ;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.lab .dropdown:hover{
+	animation-play-state: running;
+}
+.lab .dropdown:hover> .dropdown-menu{
+	display: block;
+}
+.lab .dropdown:hover> .dropdown-,menu{
+    display: block;
+}
+
+/* -------------------------------------------------------------------- */
+.nav-item .dropdown-menu .dropdown .lab{
+	margin-top: -2rem;
+	margin-left: 10.8rem;
+} 
+
+.dropdown-menu .dropdown-item:hover{
+	display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(250px,3fr)); */
+	grid-gap: 40px;
+}
+.dropdown-item:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+.dropdown-item{
+	transition: background 0.2s, transform 0.2s;
+}
+/* --------------------------------------text-color--------------------------- */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #0011ff;
+}
+/* ===========================HARMBURGER-MENU================================ */
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    display: block;
+    transition: all 0.2s;
+}
+.middle-bar{
+    margin: 5px auto;
+}
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #000000;
+}
+/* ====================================== */
+@media only screen and (max-width: 767px) {
+	.container .logo a img{
+		margin-top: 0rem;
+		margin-left: 3%;
+		width: 2.8rem;
+		/* background-color: #ffffff; */
+	}
+	.container .logo{
+		margin-left: 2rem;
+		height: 2.76rem;
+		width: 10rem;
+		/* background-color: orangered; */
+	}
+	.navbar{
+		margin-left: -2rem;
+		margin-bottom: 3rem;
+		background-color: #f9f9ff;
+	}
+	.navbar .navbar-brand h6{
+		/* background-color: blueviolet; */
+		margin-top: 0.45rem;
+		margin-left: 3.2rem;
+		padding-right: 0.9rem;
+		font-size: 12px;
+		/* font-family: 'Merriweather', serif; */
+		 
+	}
+	.navbar-toggler {
+		margin-top: 0rem;
+		margin-left: 0rem;
+		padding: 10px 5px;
+		font-size: 18px;
+		line-height: 0.3;
+	}
+	/* .nav-link, .dropdown-item{
+		font-family: 'Merriweather', serif;
+	} */
+	.navbar-nav {
+		text-align: center;
+	}
+	.dropdown-item{
+		border-style: hidden;
+		text-align: center;
+	}
+	.nav-item .dropdown-menu .dropdown .lab{
+		margin-top: 0rem;
+		margin-left: 0rem;
+	} 
+	
+}
+@media only screen and (min-width: 721px) and (max-width: 766px){
+	.container .logo a img{
+		display: flex; 
+		float: left;
+		/* background-color: #ffffff; */
+		padding-top: 0.5rem;
+		
+		width: 3rem;
+	}
+	.container .logo{
+		height: 3rem;
+		width: 10rem;
+		/* background-color: orangered; */
+	}
+	.navbar .navbar-brand h6{
+		/* background-color: #b300ff; */
+		margin-top: 0.4rem;
+		margin-left: 4.1rem;
+		text-transform: uppercase;
+		color: #000000;
+		text-align: center;
+		font-size: 14px;
+	}
+	.navbar-toggler {
+		margin-top: 0rem;
+		margin-left: 30px;
+		padding: 10px 5px;
+		font-size: 18px;
+		line-height: 0.3;
+	}
+
+} 

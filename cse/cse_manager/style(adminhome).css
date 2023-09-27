@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9ff;
+    /* overflow-x: hidden;  */
+  }
+  #home .container{
+    margin-top: 7rem;
+    padding: 1rem;
+    margin-bottom: -9rem;
+  }
+  .card{
+    padding: 1rem 0;
+    margin: 0rem 1rem;
+    display: flex;
+    box-shadow: 10px 10px 2px -4px rgba(0, 0, 0, 0.45);
+  }
+  .card, .badge{
+    border-radius: 30px;
+  }
+  .card-body{
+    margin: 1rem 1rem;
+  }
+  /* h3{
+    text-align: center;
+  } */
+  .badge{
+    text-align: center;
+    display: flex;
+    background-color: #fff;
+    color: blue;
+    border: 2px solid black;
+    max-width: 400px;
+    padding: 1rem 0.7rem;
+  }
+  .badge:hover{
+    color: #fff;
+    background-color: #0011ff;
+    transition: background 1.5s, transform 9s;
+  }
+  .card .card-body .btn{
+   
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+    /* border: none; */
+    border: 2px solid black;
+    background-color: #fff;
+    margin: 1px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    
+  }
+  .card-body .btn:hover{
+    color: #fff;
+    background-color: #0011ff;
+    transition: background 0.8s, transform 9s;
+  }
+  
+  /* main card */
+  .one{
+    background-color: #f9f9ff;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 1rem;
+  }
+  /* ... */
+  .row{
+    padding: 0rem;
+    margin: 6rem 0;
+    margin-top: -2rem;
+  }
+  @media only screen and (max-width: 390px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        padding: 1rem 0;
+        margin: 0rem 0rem;
+        border: none;
+        display: flex;
+        box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.396);
+        max-width: 300px;
+        
+      }
+  
+  }
+
+  @media only screen and (max-width: 360px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        padding: 1rem 0;
+        margin: 0rem 0rem;
+        margin-left: -2.7rem;
+        border: none;
+        display: flex;
+        box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.396);
+        min-width: 300px;
+      }
+  }
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+

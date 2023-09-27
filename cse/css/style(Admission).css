@@ -1,0 +1,25 @@
+/* -------------------------admission----------- */
+#head2 .container .card{
+    margin-bottom: 10rem;
+    background-color: #ffffff;
+    padding: 5rem 0rem;
+}
+.Admission h2{
+    font-family: 'Montserrat', sans-serif;    
+	margin-top: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#head2 .container .card p{
+    font-size: 18px;
+}
+#head2 .container .card .card-body{
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 767px){
+    #head2 .container .card p{
+        font-size: 14px;
+    }
+}
+
+

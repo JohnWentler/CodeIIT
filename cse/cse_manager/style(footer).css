@@ -1,0 +1,97 @@
+/* -------------------------------------------------ICONS---------------------------- */
+.contact-left{
+    flex-basis: 35%;
+}
+.footer-basis{
+	background-color: #ffffff;
+	margin-top: 10rem;
+}
+footer{
+	margin-top: -0.6rem;
+}
+/* .footer-basis .left{
+	align-items: center;
+}
+.footer-basis .left img{
+	margin-left: 10rem;	
+	margin-top: -33rem;
+	width: 10rem;
+	float: left;
+}
+.footer-basis .left h5{
+	text-align: center;
+	float: left;
+	margin-left: 7%;
+	margin-top: -22rem;
+	color: rgb(0, 0, 0);
+} */
+footer p{
+	background-color: #f9f9ff;
+	margin-top: -0.1rem;
+	margin-bottom: -1rem;
+	padding-left: 1rem;
+}
+.social-icons{
+	background-color: #f9f9ff;
+	padding-left: 3rem;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+/* .social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+} */
+/* ------------------------------- */
+.social-icons a .fa-youtube:hover{
+	color: #ff0000;
+    /* transform: translateY(-5px); */
+}
+.social-icons a .fa-youtube:hover{
+	transition: background 0.2s, transform 0.2s;
+}
+.social-icons a .fa-linkedin:hover{
+	color: #0E76A8;
+    /* transform: translateY(-5px); */
+}
+.social-icons a .fa-linkedin:hover{
+	transition: background 0.2s, transform 0.2s;
+}
+.social-icons a .fa-twitter:hover{
+	color: #1da1f2;
+    /* transform: translateY(-5px); */
+}
+.social-icons a .fa-twitter:hover{
+	transition: background 0.2s, transform 0.2s;
+}
+.social-icons a .fa-facebook:hover{
+	color: #0000ff;
+    /* transform: translateY(-5px); */
+}
+.social-icons a .fa-facebook:hover{
+	transition: background 0.2s, transform 0.2s;
+}
+/* -------------------------------------END-ICON------------------------------------ */
+@media only screen and (max-width: 767px){
+	.footer-basis{
+		background-color: #f9f9ff;
+		margin-bottom: -5rem;
+	}
+	.contact-left{
+		flex-basis: 35%;
+	}
+	.social-icons{
+		background-color: #f9f9ff;
+		padding-left: 2rem;
+	}
+	footer p{
+		padding-left: 1rem;
+	}
+}
+
+

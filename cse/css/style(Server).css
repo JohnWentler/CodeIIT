@@ -1,0 +1,136 @@
+.card{
+	border: none;
+    background-color: rgb(255, 255, 255);
+    margin: 3rem;  
+}
+.server h2{
+    margin-top: 7rem;
+	/* text-transform: lowercase; */
+}
+.card h6:hover{
+	transform: translateY(-6px);
+}
+.card h6{
+	transition: background 0.7s, transform 0.5s;
+}
+.card h5:hover{
+	transform: translateY(-6px);
+}
+.card h5{
+	transition: background 0.7s, transform 0.5s;
+}
+.card h4:hover{
+	color: #0011ff;
+}
+hr{
+	color: #000000;
+}
+.card ul li{
+	font-size: 14px;
+}
+/* =========================================== */
+
+.accordion{
+    /* max-width: 530px; */
+    width: 100%;
+    background: #ffffff;
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    /* box-shadow:  0 0 4px rgba(0,0,0,0.2); */
+}
+.accordion .accordion-content{
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.accordion .accordion-content .title{
+    font-size: 18px;
+}
+.accordion-content:nth-child(1){
+    box-shadow: 6px 6px 10px -1px rgba(0, 0,0, 0.15);
+}
+.accordion-content:nth-child(2){
+    box-shadow: 6px 6px 10px -1px rgba(0, 0,0, 0.15);
+}
+.accordion-content.open{
+    padding-bottom: 10px;
+}
+.accordion-content header{
+    display: flex;
+    min-height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s linear;
+}
+.accordion-content.open header{
+    min-height: 35px;
+}
+.accordion-content header .title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.accordion-content header i{
+    font-size: 15px;
+    color: #333;
+}
+.accordion-content .description{
+    height: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+}
+.accordion .accordion-content .title .fa-server{
+    color: #258bff;
+    margin-top: 1rem;
+    font-size: 1.7rem
+}
+
+/* =========================================== */
+
+@media only screen and (max-width: 767px){
+	.card{
+		background-color: #ffffff;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	/* ============================ */
+    .card .container, .accordion{
+        
+        width: 100%;
+    }
+    .accordion{
+        /* max-width: 530px; */
+        margin-top: -4rem;
+        max-width: 550px;
+        width: 100%;
+        background: #ffffff;
+        border-radius: 8px;
+        border: none;
+        /* box-shadow:  0 0 4px rgba(0,0,0,0.2); */
+    }
+    .accordion .accordion-content{
+        width: 127%;
+        margin-left: -2rem;
+        border-radius: 4px;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+    .accordion-content .description{
+        height: 0;
+        font-size: 14px;
+        color: #333;
+        font-weight: 400;
+        padding: 0 15px;
+        transition: all 0.2s linear;
+    }
+}
+ 
+

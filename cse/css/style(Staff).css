@@ -1,0 +1,103 @@
+
+/*----------------------------------------STAFF---------------------------- */
+#head .container{
+    /* align-items: center; */
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 3rem;
+    place-items: center;
+    padding-right: 2rem;
+    margin-bottom: 90px;
+}
+.staff h2{
+    margin-top: 7rem;
+    margin-bottom: -3rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,3fr));
+    grid-gap: 40px 20px;
+}
+/* --------------------------------------------------------------only row------------------ */
+/* .row div:hover{
+    background: #ffffff;
+    transform: translateY(-20px);
+}
+.row div{
+    transition: background 0.2s, transform 0.2s;
+} */
+/* -----------------------only image================== */
+.row img:hover{
+    background: #ffffff;
+    /* transform: translateY(-16px); */
+}
+.row img{
+    transition: background 0.8s, transform 0.2s;
+}
+/* ---------------------------------------------- */
+.card{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    margin-left: 0.7rem;
+    border-radius: 3%;
+    -ms-zoom-animation: alternate;
+}
+.card-body{
+    width: 100%; 
+}
+.card-body a{
+    text-decoration: none;
+}
+.card img{
+    height: 11rem;
+    padding: 0 1rem;
+    display: flex;
+    float: center;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    
+    /* border-radius: inherit; */
+    /* border-radius: initial; */
+    /* border-radius: unset; */
+}
+.container .col-md-4{
+    width: 33%;
+    padding-left: 30px;
+}
+
+/* ---------------------------------------------------------------------- */
+@media only screen and (max-width: 767px){
+    /* =======STAFF======== */
+    .staff h2{
+         font-size: 2rem;
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+    #head .container{
+        place-items: center;
+        display: flex;
+        width: 80%;
+        padding-top: 2rem;
+        background-color: #ffffff;
+        margin-top: -3rem;
+        /* margin: 10px 10px;
+        margin-left: 2rem; */
+    }
+    .card{
+        height: 100%;
+        /* width: 100%; */
+        align-items: center;
+        text-align: center;
+        margin-left: -0.9rem;
+        background-color: rgb(255, 255, 255);
+        width: 18rem;
+        -ms-zoom-animation: alternate;
+    }
+}
+
+

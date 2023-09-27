@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+	justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    place-items: center;
+}
+/* ---------------------------------Program--------------------------- */
+#head1 .container{
+	width: 100%;
+    margin-top: 2rem;
+    place-items: center;
+    padding-right: 4rem;
+    margin-bottom: 90px;
+}
+#head1 .container .card h1{
+	font-size: 30px;
+}
+.Program{
+	margin-top: 7rem;
+}
+.Program h2:hover{
+	color: #000000;
+	transform: translateY(-1px); 
+}
+.Program h2{
+	font-size: 2rem;
+	transition: background 0.2s, transform 0.2s
+}
+.card-body p{
+	font-size: 18px;
+}
+/* -----------------------HOVER---------------- */
+/* #head1 .container .card .c2:hover {
+	transform: translateY(-30px);
+}
+#head1 .container .card .c2{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c3:hover {
+	transform: translateY(-30px);
+}
+#head1 .container .card .c3{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c4:hover {
+	transform: translateY(-30px);
+}
+#head1 .container .card .c4{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c5:hover {
+	transform: translateY(-30px);
+}
+#head1 .container .card .c5{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c6:hover {
+	transform: translateY(-30px);
+}
+#head1 .container .card .c6{
+	transition: background 0.2s, transform 0.2s;
+} */
+/* ------------------end-hover------------------------ */
+/* -----------------word-hover------------------------ */
+#head1 .container .card .c1 .c2 h1:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+#head1 .container .card .c1 .c2 h1{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c1 .c3 h1:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+#head1 .container .card .c1 .c3 h1{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c1 .c4 h1:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+#head1 .container .card .c1 .c4 h1{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c1 .c5 h1:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+#head1 .container .card .c1 .c5 h1{
+	transition: background 0.2s, transform 0.2s;
+}
+#head1 .container .card .c1 .c6 h1:hover{
+	color: #001aff;
+	background-color: #ffffff;
+    transform: translateY(-3px);
+}
+#head1 .container .card .c1 .c6 h1{
+	transition: background 0.2s, transform 0.2s;
+}
+/* -----------------end-word-hover---------- */
+.ct{
+	font-size: 20px;
+	text-align: justify;
+}
+#head1 .container .card{
+	width: 105%;
+}
+#head1 .container .card .c1 .c0{
+	text-align: justify;
+}
+
+/* ----------------------------------------- */
+
+@media only screen and (max-width: 767px){
+	/* --------------------------program--------------- */
+	#head1 .container{
+		width: 100%;
+		margin-top: 2rem;
+		place-items: center;
+		margin-bottom: 0px;
+	}
+	#head1 .container .card{
+		width: 118%;
+		/* border: 2px solid rgb(0, 0, 0); */
+	}
+	/* #head1 .container .card .card-body{
+		margin-left: 0rem;
+	} */
+	#head1 .container .card .c1 .c0{
+		text-align: justify;
+	}
+	.card-body p{
+		font-size: 14px;
+	}
+	
+	
+
+}

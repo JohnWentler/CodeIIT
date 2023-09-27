@@ -1,0 +1,36 @@
+ 
+/* -------------------------RESEARCH----------- */
+#head5 .container .card{
+    margin-bottom: 1rem;
+    background-color: #fffdfd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Research h2{
+    font-size: 2rem;
+	margin-top: 7rem;
+    text-align: center;
+}
+#head5 .container .card h4:hover{
+    color: #0000ff;
+    transform: translateY(-0.5rem);
+}
+#head5 .container .card h4:hover{
+    transition: background 10s, transform 0.3s;
+}
+.card-body h4{
+    text-decoration: underline;
+}
+.card-body p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767px){
+    .card-body p{
+        font-size: 14px;
+    }
+    .card-body ul li{
+        font-size: 14px;
+    }
+}
+
+

@@ -1,0 +1,153 @@
+
+
+/* -------------------------Event------------------------------- */
+.event-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.event-container h2.year {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #b1b1b1;
+}
+.event-title, .event-description, .date, .month{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* -------------------M-------------- */
+.event{
+  grid-template-columns: repeat(auto-fit,minmax(250px,3fr));
+  grid-gap: 40px 20px;
+}
+/* -------------M------------------ */
+.event:hover{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  margin-right: -200rem;
+  transform: translateY(25px);
+}
+
+.event {
+  color: rgb(0, 0, 0);
+  transition: background 0.2s, transform 0.2s;
+}
+/* --------------------------------- */
+.event-container .event {
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+.event-right p a b{
+  color: #222;
+}
+.event-right p a b:hover{
+  color: #0011ff;
+  transform: translateY(2rem);
+}
+
+.event .event-left {
+  background: #222;
+  min-width: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  padding: 8px 48px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+  font-size: 56px;
+}
+
+.event .event-left .month {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.event .event-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+}
+.event .event-right .event-description{
+  text-align: justify;
+}
+.event-right p a{
+  text-decoration: none;
+}
+
+.event .event-right h3.event-title {
+  font-size: 24px;
+  margin: 24px 0 10px 0;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+  background: #a2b3fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 24px 0;
+  font-size: 14px;
+}
+.event-description{
+  font-size: 18px;
+}
+
+.event .event-right .event-timing {
+  height: 4rem;
+  text-align: center;
+  padding-top: 1rem;
+   
+}
+/* --------------End-event---------------- */
+
+
+@media only screen and (max-width: 767px){
+  .event-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 330px;
+    margin: 0 auto;
+    margin-top: 10rem;
+  }
+  /* ------------------------ */
+  
+  .event {
+    flex-direction: column;
+  }
+  .event .event-left {
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+  }
+  .event-title, .event-description, .date, .month{
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .event .event-left .event-date .date,
+  .event .event-left .event-date .month {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .event .event-left .event-date {
+    padding: 10px 0;
+  }
+  .event-description{
+    font-size: 14px;
+  }
+  
+}

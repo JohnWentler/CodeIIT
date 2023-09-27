@@ -1,0 +1,118 @@
+/*----------------------------------------STUDENT---------------------------- */
+#head .container{
+    /* align-items: center; */
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 6rem;
+    place-items: center;
+    padding-right: 4rem;
+    margin-bottom: 90px;
+}
+.student h1{
+    margin-top: 7rem;
+    margin-bottom: -5rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,3fr));
+    grid-gap: 40px 20px;
+}
+/* ---------------------only row------------------ */
+.row div:hover{
+    background: #ffffff;
+    transform: translateY(-20px);
+}
+.row div{
+    transition: background 0.2s, transform 0.2s;
+}
+/* =========================only image================== */
+/* .row img:hover{
+    background: #ffffff;
+    transform: translateY(-16px);
+}
+.row img{
+    transition: background 0.8s, transform 0.2s;
+} */
+/* ---------------------------------------------- */
+.card{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    border-radius: 3%;
+    -ms-zoom-animation: alternate;
+}
+.card-body{
+    width: 100%; 
+}
+.card-body a{
+    text-decoration: none;
+}
+.card img{
+    height: 14rem;
+    padding: 0 1rem;
+    display: flex;
+    float: center;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 7%;
+    
+    /* border-radius: inherit; */
+    /* border-radius: initial; */
+    /* border-radius: unset; */
+}
+
+.container .col-md-4{
+    /* background-color: rgb(203, 203, 255); */
+    width: 33%;
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+ 
+/* ---------------------------------------------------------------------- */
+@media only screen and (max-width: 767px){
+    .student h1{
+        margin-top: 6rem;
+        margin-bottom: -1rem;
+    }
+   
+    /* ---------STUDENT----------- */
+    #head .container{
+        place-items: center;
+        display: flex;
+        width: 80%;
+        padding-top: 1px;
+        padding-right: 19rem;
+        margin-top: 1rem;
+        /* margin: 10px 10px;
+        margin-left: 2rem; */
+    }
+    .card{
+        height: 100%;
+        margin-left: -1rem;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        width: 18rem;
+        -ms-zoom-animation: alternate;
+    }
+    .card img{
+        height: 19rem;
+        padding: 0 1rem;
+        display: flex;
+        float: center;
+        width: 100%;
+        background-color: #ffffff;
+        margin-top: 6%;
+        
+        /* border-radius: inherit; */
+        /* border-radius: initial; */
+        /* border-radius: unset; */
+    }
+     
+}
+
+

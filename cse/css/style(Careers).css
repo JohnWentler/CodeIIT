@@ -1,0 +1,68 @@
+ 
+/* -------------------------Careers----------- */
+#head3 .container .card{
+    padding: 0rem 1rem;
+    margin-bottom: 4rem;
+    background-color: #ffffff;
+}
+.Careers h2{
+	font-size: 2rem;
+	margin-top: 7rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.card-body h4{
+	text-decoration: underline;
+}
+.card-body p{
+	font-size: 18px;
+}
+.card-body p button{
+	font-size: 16px;
+	align-items: center;
+	margin-left: -0.4rem;
+	padding: 0.2rem;
+	border-radius: 19px;
+	background-color: rgb(255, 255, 255);
+	border: white;
+}
+.card-body p button:hover{
+	color: black;
+	background-color: #ffffff;
+	transform: translateY(-2px);
+}
+.card-body p button a{
+	text-decoration: none;
+	font-weight: 700;
+	color: black;
+}
+.card-body p button a:hover{
+	color: #0011ff;
+	transform: translateY(-10px);
+	transition: background 0.7s, transform 0.2s;
+}
+
+.card-body p button{
+	color: black;
+	transition: background 0.3s, transform 0.2s;
+}
+
+@media only screen and (max-width: 767px){
+	#head3 .container .card{
+		padding: 0rem 0rem;
+		margin-bottom: 2rem;
+		background-color: #ffffff;
+	}
+	.Careers h3{
+		font-weight: 600;
+		font-family: 'EB Garamond', serif;
+		margin-top: 5rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.card-body p{
+		font-size: 14px;
+	}
+}
+
+

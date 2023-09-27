@@ -1,0 +1,31 @@
+ 
+/* -------------------------Polocies----------- */
+#head4 .container .card{
+    padding: 3rem 0rem;
+    margin-bottom: 10rem;
+    background-color: #ffffff;
+}
+.Policies h2{
+    font-size: 2rem;
+ 	margin-top: 7rem;
+    text-align: center;
+}
+.Policies h2{
+    margin-bottom: 2rem;
+}
+#head4 .container .card p{
+    font-size: 18px;
+}
+
+#head4 .container .card .card-body{
+    background-color: rgb(255, 255, 255);
+}
+ 
+
+@media only screen and (max-width: 767px){
+	#head4 .container .card p{
+        font-size: 14px;
+    }
+}
+
+
